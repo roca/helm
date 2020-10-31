@@ -1,9 +1,20 @@
 apiVersion: v1
 entries:
+  gitrpotest2:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-10-31T04:50:35.871603-04:00"
+    description: A Helm chart for Kubernetes
+    digest: 4d097469f58b33411901888f562a971c45fe7316442ba67d0e70e109af8a2607
+    name: gitrpotest2
+    type: application
+    urls:
+    - gitrpotest2-0.1.0.tgz
+    version: 0.1.0
   testchart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-10-30T05:09:11.281305-04:00"
+    created: "2020-10-31T04:50:35.872489-04:00"
     description: A Helm chart  from my git repo
     digest: 9718563919a117ece832a68a564da6af46b384292524d2827298fa059802b20c
     name: testchart
@@ -11,4 +22,4 @@ entries:
     urls:
     - testchart-0.1.0.tgz
     version: 0.1.0
-generated: "2020-10-30T05:09:11.280616-04:00"
+generated: "2020-10-31T04:50:35.869848-04:00"
